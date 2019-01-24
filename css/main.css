@@ -145,7 +145,7 @@ p {
 }
  
 img {
- 
+    width: 100%;
 }
  
 figure {
@@ -280,11 +280,16 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/hero-img.jpg') center no-repeat #333;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 
 /* Aside */
@@ -303,6 +308,11 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/info-img.jpg') center no-repeat #333;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
