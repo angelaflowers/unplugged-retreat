@@ -247,7 +247,6 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
 }
 
 footer .social-icons p i {
@@ -645,6 +644,7 @@ input[type=button] {
     width: 75%;
     margin: 0;
   }
+	
   /* Footer */
   footer .content-wrapper {
     width: 65%;
@@ -674,6 +674,10 @@ input[type=button] {
   footer .copyright {
     width: 100%;
   }
+	
+	footer .social-icons p {
+		margin: 0 20px;
+	}
 
   /* ==========================================================================
    About Page
@@ -780,6 +784,11 @@ input[type=button] {
   .reviews article div {
     width: 42%;
   }
+	
+	/* Footer */
+	footer .social-icons p {
+		margin: 0 20px;
+	}
 
   /* ==========================================================================
   About Page
